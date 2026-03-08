@@ -14,7 +14,7 @@ const client = new Client({
   ]
 });
 
-const PREFIX = '!';
+const PREFIX = '06';
 const TOKEN = process.env.TOKEN;
 const stoklar = new Map();
 
@@ -575,9 +575,9 @@ client.on('messageCreate', async (message) => {
       .setDescription('Aşağıdan işlem yapmak istediğin kategoriyi seç!')
       .setColor('#FF6B00')
       .addFields(
-        { name: '🟢 BİZE SATMAK İSTİYORSAN (Sen satarsın)', value: `> Alış fiyatı: **${pazar.spawner.alis}** / stack`, inline: false },
-        { name: '🔴 BİZDEN ALMAK İSTİYORSAN (Sen alırsın)', value: `> Satış fiyatı: **${pazar.spawner.satis}** / stack`, inline: false },
-        { name: '✅ Minimum', value: '8 spawner minimum', inline: true },
+        { name: '🟢 BİZE SATMAK İSTİYORSAN (Sen satarsın)', value: `> Alış fiyatı: **${pazar.spawner.alis}** / tanesi`, inline: false },
+        { name: '🔴 BİZDEN ALMAK İSTİYORSAN (Sen alırsın)', value: `> Satış fiyatı: **${pazar.spawner.satis}** / tanesi`, inline: false },
+        { name: '✅ Minimum', value: '3 spawner minimum', inline: true },
         { name: 'ℹ️ Bilgi', value: 'Fiyatlar değişebilir', inline: true }
       )
       .setFooter({ text: 'DonutSMP Spawner Market' })
