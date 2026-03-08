@@ -1,18 +1,12 @@
 {
-  "name": "06yusuf-bot",
+  "name": "06yyusuff-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "bot_12.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot_12.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "discord.js": "^14.25.1",
-    "dotenv": "^17.3.1",
-    "mongoose": "^9.2.4"
+    "dotenv": "^17.3.1"
   }
 }
