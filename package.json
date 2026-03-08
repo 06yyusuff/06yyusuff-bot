@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node bot_12.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
