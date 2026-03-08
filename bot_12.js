@@ -110,7 +110,7 @@ async function sayaclariGuncelle() {
 // ===================== BOT HAZIR =====================
 client.once('ready', async () => {
   console.log(`✅ ${client.user.tag} olarak giriş yapıldı!`);
-  client.user.setActivity('DonutSMP | youtube.com/@06yyusuff', { type: 3 });
+  client.user.setActivity('youtube.com/@06yyusuff', { type: 3 });
   await sayaclariGuncelle();
   setInterval(sayaclariGuncelle, 5 * 60 * 1000);
   cekilisZamanlayici();
