@@ -1,18 +1,18 @@
 {
-  "name": "06yusuf-bot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "marpel-tarzı-bot",
+  "version": "2.0.0",
+  "description": "Marpel tarzı kapsamlı Discord Botu - discord.js v14",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "discord.js": "^14.25.1",
-    "dotenv": "^17.3.1",
-    "mongoose": "^9.2.4"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
